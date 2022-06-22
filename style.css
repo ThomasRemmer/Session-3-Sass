@@ -1,0 +1,78 @@
+.card {
+  margin: 1rem;
+}
+.card .card__button {
+  padding: 0.625rem;
+  border: rgb(41, 41, 41) 1px solid;
+  text-decoration: none;
+  width: 3rem;
+  margin: 1rem;
+}
+.card .card__button--primary {
+  background-color: rgb(41, 41, 41);
+  color: rgb(221, 221, 221);
+}
+.card .card__button--secondary {
+  background-color: rgb(145, 145, 145);
+  color: rgb(41, 41, 41);
+}
+.card .card__button:hover {
+  background-color: rgb(145, 145, 145);
+  color: rgb(41, 41, 41);
+}
+
+.card .card__description {
+  font-size: 1.25rem;
+  color: rgb(145, 145, 145);
+  margin: 1rem;
+}
+.card .card__heading {
+  color: rgb(41, 41, 41);
+  font-size: 2rem;
+  margin: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card .card__heading .card__category {
+  font-size: 0.7rem;
+  text-decoration: none;
+  color: rgb(41, 41, 41);
+  background-color: rgb(145, 145, 145);
+  padding: 7px;
+  border-radius: 25px;
+}
+.card .card__heading .card__category--modifier {
+  background-color: #00ffb2;
+}
+.card .card__heading .card__menu {
+  margin: 0;
+}
+.card--border {
+  border: 1px #00ffb2 solid;
+}
+.card .card__wrapper {
+  margin: 1rem;
+}
+
+.card .card__image {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  margin: 0.5rem;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,39 @@
+@use "./variables" as *;
+
+.card{
+    .card__button {
+        padding: 0.625rem;
+        border: $color-black 1px solid;
+        text-decoration: none;
+        width: 3rem;
+        margin: 1rem;
+
+        &--primary {
+            background-color: $color-black;
+            color: $color-white;
+        }
+
+        &--secondary {
+            background-color: $color-grey;
+            color: $color-black;
+        }
+
+        &:hover{
+            background-color: $color-grey;
+            color: $color-black;
+        }
+    }
+
+    
+
+margin: 1rem;
+
+
+
+
+}
+
+    
+
+
+
